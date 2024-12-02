@@ -43,6 +43,6 @@ app.post("/new", (req, res) => {
   res.redirect("/");
 });
 
-app.listen(3000, () => {
+app.listen(8000, () => {
   console.log("Server is listening to https://localhost:3000");
 });
